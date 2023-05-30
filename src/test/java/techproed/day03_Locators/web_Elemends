@@ -1,0 +1,52 @@
+Amazon sayfasina gittik ve herbir button, arama motoru,
+fotograflar, linkler, etkilesimli olan ya da olmayan yani bu sayfada bulunan hersey bir webelement'dir.
+
+Webelemetler: Button, Search, Text box, Headers, Tables
+
+Webelement taglari: <html>, <body>, <label>,<input>, <a> vb.
+
+Biz webelementlere ulasmak icin HTML kodlarini kullanacagiz.
+Webelemetler: Button, Search, Text box, Headers, Tables
+
+Webelement taglari: <html>, <body>, <label>,<input>, <a> vb.
+
+Biz webelementlere ulasmak icin HTML kodlarini kullanacagiz.
+
+Web sayfasinda istedigimiz bir webelement uzerine gidip sag click yapip (incele)inspect'i tiklayinca HTML
+kodlarini goruruz.
+
+Biz arama kutusu uzerine gelip sag click yaptik ve incele'yi tikladik. Arama kutusunun HTML
+kodlarini asagida gorebildik. Dilersek bu kodlari yukari, saga veya sola alabiliriz.
+
+Amazon sayfasinda EN baslikli kisimda saga click yaptik ve inspect yaptik. Yine HTML kodlarini
+gorduk. Bu kodlar EN'e ait.
+
+Biz webelementlere erisebilmek icin bu HTML kodlarindan faydalanacagiz.
+
+Bir webelement'in HTML kodlarini inceledik. <tbody> tagi ile baslamiz ve </tbody> tagi ile
+sona ermis. Icerisnde <input>, <label> gibi taglari gorduk.
+
+Locators(Yer Bulucu-Konum Belirleyici)
+Biz bir webelement'in lokate'ini yani konumunu, yerini kodlarla alabilecegiz. Locate almak demek
+o webelementin yerini, konumunu belirleyecegiz.
+
+Biz Selenium'da Locators ile web sayfasindaki web ogelerini tanimlayacagiz. Aksi halde otomasyon
+yapamayiz. Biz web ogeleri uzerinde eylemeler gerceklestirmek, otomasyon islemi yapmak istiyorsak
+mutlaka locators'lari kullaniriz.
+
+Web elementlere ulasmak icin tag veya bazi attribute'leri kullanacagiz. Bunlarla ulasilamayan
+web elementler icin ozel olarak tanimlanan Xpath ve css locator'lari kullanilir. Xpath'in
+otomasyonda cikamayacagi alan yoktur. Bununla her turlu webelement'in locator'ini alabiliriz.
+
+8 locator alma yontemi vardir. En cok tutulan Xpath'dir.
+
+Bir web elemetini tanimlamak icin 8 tane selenium locator vardir.
+
+1.id  ornek: id="twotabsearchtextbox" id bir attribute, " " icindeki value'dir
+2.name  ornek: name="field-keywords"   name bir attribute, " " icindeki value'dir
+3.class name  ornek: class="nav-input nav-progressive-attribute"
+4.tagName    ornek: input type="text" tagName en basta yazilir.Bu HTML kodun tagName'i input
+5.linkText
+6.partialLinkText
+7.xpath  //en cok kullanilan yontem
+8.cssSelector
