@@ -46,7 +46,7 @@ public class C03_RelativeLocators {
 
        // Cruiser'i tiklayin
         Cruiser.click();
-
+//
 
 
 
